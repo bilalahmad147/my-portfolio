@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './aboutus.css'
@@ -25,7 +26,16 @@ function aboutus() {
             </Container>
         </div>
     )
+=======
+import React from "react";
+
+function AboutUs() {
+  return (
+    <div>
+      <h1>Hello world</h1>
+    </div>
+  );
+>>>>>>> e164b3e2af43f4a04a04b00c8d37cff32dc7ba01
 }
 
-
-export default aboutus
+export default AboutUs;

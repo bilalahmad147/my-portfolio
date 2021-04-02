@@ -1,13 +1,12 @@
-import React from 'react'
-import Header from './Components/Header/Header'
-import './App.css';
-import Aboutus from './Components/aboutus/aboutus' 
+import React from "react";
+import Header from "./Components/Header/Header";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Aboutus />
+      <h1>hello world</h1>
     </div>
   );
 }
